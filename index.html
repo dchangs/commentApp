@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<title>Comment</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body id="commentApp">
+
+<h1>Leave a Comment <img src="img/comment.png"></h1>
+<form>
+	<input type="text" placeholder="Name" id="username">
+	<br>
+	<textarea id="commentBox" rows="5" placeholder="Comment"></textarea>
+	<br>
+	<button type="button" onclick="submitComment()">Submit</button>
+</form>
+
+<ul id="userComments"></ul>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
